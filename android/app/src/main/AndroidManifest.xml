@@ -1,4 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ใส่ permission ตรงนี้ (อยู่นอก <application>) -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
     <application
         android:label="hexagonal_research_develop"
         android:name="${applicationName}"
